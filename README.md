@@ -36,6 +36,8 @@ Hạn nộp mặc định: **23h59 ngày lab (GMT+7)**; coach có thể gia hạ
 
 ## Yêu cầu & Quick Start
 
+Có thể dùng OpenRouter: đặt `OPENROUTER_API_KEY` và `OPENROUTER_MODEL` trong `.env` (xem `.env.example`). Mặc định chọn `openai/gpt-4o-mini`. Không đưa khóa vào Git.
+
 **Yêu cầu:** Python 3.11 trở lên. Cần **OpenAI API key** để chạy `domain_assistant.py` (Part 3 — sinh 20 actual answers từ RAG thật); phần code core (`template.py`, Part 1–2) không cần API key.
 
 ```bash
